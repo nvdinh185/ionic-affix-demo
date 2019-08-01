@@ -1,11 +1,7 @@
 import { Component } from '@angular/core';
-import { IonicPage } from 'ionic-angular';
 
-@IonicPage({
-    name: 'headers',
-    priority: 'high'
-})
 @Component({
+    selector: 'page-headers',
     templateUrl: 'headers.html'
 })
 export class HeadersPage {

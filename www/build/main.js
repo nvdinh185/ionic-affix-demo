@@ -27,9 +27,6 @@ var map = {
 	"../pages/dividers/dividers.module": [
 		199
 	],
-	"../pages/headers/headers.module": [
-		200
-	],
 	"../pages/refresher/refresher.module": [
 		202
 	],
@@ -148,8 +145,7 @@ var DividersPageModule = (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HeadersPageModule", function() { return HeadersPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HeadersPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__headers__ = __webpack_require__(201);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(28);
@@ -206,7 +202,8 @@ var HeadersPage = (function () {
         this.items = Array.from({ length: 15 }, function (value, key) { return key; });
     }
     HeadersPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"D:\DINHNV\MyData\LapTrinhDiDong\IONIC\ion-affix-demo\src\pages\headers\headers.html"*/'<ion-header>\n\n    <ion-toolbar>\n\n        <ion-title>\n\n            Sticky ion-list-header\n\n        </ion-title>\n\n    </ion-toolbar>\n\n</ion-header>\n\n\n\n<ion-content padding #content>\n\n    <ion-list>\n\n        <ion-list-header ion-affix [content]="content">Header 1</ion-list-header>\n\n        <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n    </ion-list>\n\n    <ion-list>\n\n        <ion-list-header ion-affix [content]="content">Header 2</ion-list-header>\n\n        <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n    </ion-list>\n\n    <ion-list>\n\n        <ion-list-header ion-affix [content]="content">Header 3</ion-list-header>\n\n        <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n    </ion-list>\n\n    <ion-list>\n\n        <ion-list-header ion-affix [content]="content">Header 4</ion-list-header>\n\n        <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n    </ion-list>\n\n</ion-content>'/*ion-inline-end:"D:\DINHNV\MyData\LapTrinhDiDong\IONIC\ion-affix-demo\src\pages\headers\headers.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-headers',template:/*ion-inline-start:"D:\DINHNV\MyData\LapTrinhDiDong\IONIC\ion-affix-demo\src\pages\headers\headers.html"*/'<ion-header>\n\n    <ion-toolbar>\n\n        <ion-title>\n\n            Sticky ion-list-header\n\n        </ion-title>\n\n    </ion-toolbar>\n\n</ion-header>\n\n\n\n<ion-content padding #content>\n\n    <ion-list>\n\n        <ion-list-header ion-affix [content]="content">Header 1</ion-list-header>\n\n        <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n    </ion-list>\n\n    <ion-list>\n\n        <ion-list-header ion-affix [content]="content">Header 2</ion-list-header>\n\n        <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n    </ion-list>\n\n    <ion-list>\n\n        <ion-list-header ion-affix [content]="content">Header 3</ion-list-header>\n\n        <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n    </ion-list>\n\n    <ion-list>\n\n        <ion-list-header ion-affix [content]="content">Header 4</ion-list-header>\n\n        <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n    </ion-list>\n\n</ion-content>'/*ion-inline-end:"D:\DINHNV\MyData\LapTrinhDiDong\IONIC\ion-affix-demo\src\pages\headers\headers.html"*/
         })
     ], HeadersPage);
     return HeadersPage;
@@ -415,7 +412,6 @@ var AppModule = (function () {
                     links: [
                         { loadChildren: '../pages/cards/cards.module#CardsPageModule', name: 'cards', segment: 'cards', priority: 'high', defaultHistory: [] },
                         { loadChildren: '../pages/dividers/dividers.module#DividersPageModule', name: 'dividers', segment: 'dividers', priority: 'high', defaultHistory: [] },
-                        { loadChildren: '../pages/headers/headers.module#HeadersPageModule', name: 'headers', segment: 'headers', priority: 'high', defaultHistory: [] },
                         { loadChildren: '../pages/refresher/refresher.module#RefresherPageModule', name: 'refresher', segment: 'refresher', priority: 'high', defaultHistory: [] },
                         { loadChildren: '../pages/scroll/scroll.module#ScrollPageModule', name: 'scroll', segment: 'scroll', priority: 'high', defaultHistory: [] },
                         { loadChildren: '../pages/segment/segments.module#SegmentsPageModule', name: 'segments', segment: 'segments', priority: 'high', defaultHistory: [] }
@@ -424,7 +420,7 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_5_ion_affix__["a" /* IonAffixModule */],
                 __WEBPACK_IMPORTED_MODULE_7__pages_dividers_dividers_module__["DividersPageModule"],
                 __WEBPACK_IMPORTED_MODULE_8__pages_cards_cards_module__["CardsPageModule"],
-                __WEBPACK_IMPORTED_MODULE_9__pages_headers_headers_module__["HeadersPageModule"],
+                __WEBPACK_IMPORTED_MODULE_9__pages_headers_headers_module__["a" /* HeadersPageModule */],
                 __WEBPACK_IMPORTED_MODULE_10__pages_segment_segments_module__["SegmentsPageModule"],
                 __WEBPACK_IMPORTED_MODULE_11__pages_refresher_refresher_module__["RefresherPageModule"],
                 __WEBPACK_IMPORTED_MODULE_12__pages_scroll_scroll_module__["ScrollPageModule"]
