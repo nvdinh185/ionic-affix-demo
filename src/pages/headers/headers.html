@@ -6,21 +6,21 @@
     </ion-toolbar>
 </ion-header>
 
-<ion-content padding #content>
+<ion-content no-padding #content>
     <ion-list>
-        <ion-list-header ion-affix [content]="content">Header 1</ion-list-header>
+        <ion-list-header class="sticky-header" ion-affix [content]="content">Header 1</ion-list-header>
         <ion-item *ngFor="let item of items">{{item}}</ion-item>
     </ion-list>
     <ion-list>
-        <ion-list-header ion-affix [content]="content">Header 2</ion-list-header>
+        <ion-list-header class="sticky-header" ion-affix [content]="content">Header 2</ion-list-header>
         <ion-item *ngFor="let item of items">{{item}}</ion-item>
     </ion-list>
     <ion-list>
-        <ion-list-header ion-affix [content]="content">Header 3</ion-list-header>
+        <ion-list-header class="sticky-header" ion-affix [content]="content">Header 3</ion-list-header>
         <ion-item *ngFor="let item of items">{{item}}</ion-item>
     </ion-list>
     <ion-list>
-        <ion-list-header ion-affix [content]="content">Header 4</ion-list-header>
+        <ion-list-header class="sticky-header" ion-affix [content]="content">Header 4</ion-list-header>
         <ion-item *ngFor="let item of items">{{item}}</ion-item>
     </ion-list>
 </ion-content>

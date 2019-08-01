@@ -25682,6 +25682,12 @@ ion-list-header, ion-item-divider {
   background: #8bc279 !important;
 }
 
+page-headers .sticky-header {
+  background-color: #F2F3F8 !important;
+  color: #3C6FE2;
+  padding: 0.5em;
+}
+
 ion-scroll {
   white-space: nowrap;
 }
