@@ -6,7 +6,7 @@
     </ion-toolbar>
 </ion-header>
 
-<ion-content no-padding #content>
+<ion-content #content>
     <ion-list>
         <ion-list-header class="sticky-header" ion-affix [content]="content">Header 1</ion-list-header>
         <ion-item *ngFor="let item of items">{{item}}</ion-item>

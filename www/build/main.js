@@ -1,6 +1,6 @@
 webpackJsonp([0],{
 
-/***/ 133:
+/***/ 132:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -13,28 +13,28 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 133;
+webpackEmptyAsyncContext.id = 132;
 
 /***/ }),
 
-/***/ 176:
+/***/ 175:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"../pages/cards/cards.module": [
-		177
+		176
 	],
 	"../pages/dividers/dividers.module": [
 		199
 	],
 	"../pages/refresher/refresher.module": [
-		200
+		197
 	],
 	"../pages/scroll/scroll.module": [
-		201
+		198
 	],
 	"../pages/segment/segments.module": [
-		202
+		200
 	]
 };
 function webpackAsyncContext(req) {
@@ -48,20 +48,20 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 176;
+webpackAsyncContext.id = 175;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 177:
+/***/ 176:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CardsPageModule", function() { return CardsPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cards__ = __webpack_require__(279);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cards__ = __webpack_require__(273);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ion_affix__ = __webpack_require__(40);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -82,7 +82,7 @@ var CardsPageModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_2__cards__["a" /* CardsPage */]
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__cards__["a" /* CardsPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__cards__["a" /* CardsPage */]),
                 __WEBPACK_IMPORTED_MODULE_3_ion_affix__["a" /* IonAffixModule */]
             ],
             entryComponents: [
@@ -97,60 +97,16 @@ var CardsPageModule = (function () {
 
 /***/ }),
 
-/***/ 199:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DividersPageModule", function() { return DividersPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ion_affix__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__dividers__ = __webpack_require__(385);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-
-
-
-var DividersPageModule = (function () {
-    function DividersPageModule() {
-    }
-    DividersPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_3__dividers__["a" /* DividersPage */]
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__dividers__["a" /* DividersPage */]),
-                __WEBPACK_IMPORTED_MODULE_2_ion_affix__["a" /* IonAffixModule */]
-            ],
-            entryComponents: [
-                __WEBPACK_IMPORTED_MODULE_3__dividers__["a" /* DividersPage */]
-            ]
-        })
-    ], DividersPageModule);
-    return DividersPageModule;
-}());
-
-//# sourceMappingURL=dividers.module.js.map
-
-/***/ }),
-
-/***/ 200:
+/***/ 197:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RefresherPageModule", function() { return RefresherPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ion_affix__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__refresher__ = __webpack_require__(386);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__refresher__ = __webpack_require__(380);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -170,7 +126,7 @@ var RefresherPageModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_3__refresher__["a" /* RefresherPage */]
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__refresher__["a" /* RefresherPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__refresher__["a" /* RefresherPage */]),
                 __WEBPACK_IMPORTED_MODULE_2_ion_affix__["a" /* IonAffixModule */]
             ],
             entryComponents: [
@@ -185,16 +141,16 @@ var RefresherPageModule = (function () {
 
 /***/ }),
 
-/***/ 201:
+/***/ 198:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ScrollPageModule", function() { return ScrollPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ion_affix__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__scroll__ = __webpack_require__(387);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__scroll__ = __webpack_require__(381);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -214,7 +170,7 @@ var ScrollPageModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_3__scroll__["a" /* ScrollPage */]
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__scroll__["a" /* ScrollPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__scroll__["a" /* ScrollPage */]),
                 __WEBPACK_IMPORTED_MODULE_2_ion_affix__["a" /* IonAffixModule */]
             ],
             entryComponents: [
@@ -229,15 +185,59 @@ var ScrollPageModule = (function () {
 
 /***/ }),
 
-/***/ 202:
+/***/ 199:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DividersPageModule", function() { return DividersPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ion_affix__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__dividers__ = __webpack_require__(382);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+var DividersPageModule = (function () {
+    function DividersPageModule() {
+    }
+    DividersPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_3__dividers__["a" /* DividersPage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__dividers__["a" /* DividersPage */]),
+                __WEBPACK_IMPORTED_MODULE_2_ion_affix__["a" /* IonAffixModule */]
+            ],
+            entryComponents: [
+                __WEBPACK_IMPORTED_MODULE_3__dividers__["a" /* DividersPage */]
+            ]
+        })
+    ], DividersPageModule);
+    return DividersPageModule;
+}());
+
+//# sourceMappingURL=dividers.module.js.map
+
+/***/ }),
+
+/***/ 200:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SegmentsPageModule", function() { return SegmentsPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__segments__ = __webpack_require__(388);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__segments__ = __webpack_require__(383);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ion_affix__ = __webpack_require__(40);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -258,7 +258,7 @@ var SegmentsPageModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_1__segments__["a" /* SegmentsPage */]
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_1__segments__["a" /* SegmentsPage */]),
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_1__segments__["a" /* SegmentsPage */]),
                 __WEBPACK_IMPORTED_MODULE_3_ion_affix__["a" /* IonAffixModule */]
             ],
             entryComponents: [
@@ -273,7 +273,7 @@ var SegmentsPageModule = (function () {
 
 /***/ }),
 
-/***/ 246:
+/***/ 240:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -292,7 +292,7 @@ var HeadersPage = (function () {
     }
     HeadersPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-headers',template:/*ion-inline-start:"D:\DINHNV\MyData\LapTrinhDiDong\IONIC\ion-affix-demo\src\pages\headers\headers.html"*/'<ion-header>\n\n    <ion-toolbar>\n\n        <ion-title>\n\n            Sticky ion-list-header\n\n        </ion-title>\n\n    </ion-toolbar>\n\n</ion-header>\n\n\n\n<ion-content no-padding #content>\n\n    <ion-list>\n\n        <ion-list-header class="sticky-header" ion-affix [content]="content">Header 1</ion-list-header>\n\n        <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n    </ion-list>\n\n    <ion-list>\n\n        <ion-list-header class="sticky-header" ion-affix [content]="content">Header 2</ion-list-header>\n\n        <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n    </ion-list>\n\n    <ion-list>\n\n        <ion-list-header class="sticky-header" ion-affix [content]="content">Header 3</ion-list-header>\n\n        <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n    </ion-list>\n\n    <ion-list>\n\n        <ion-list-header class="sticky-header" ion-affix [content]="content">Header 4</ion-list-header>\n\n        <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n    </ion-list>\n\n</ion-content>'/*ion-inline-end:"D:\DINHNV\MyData\LapTrinhDiDong\IONIC\ion-affix-demo\src\pages\headers\headers.html"*/
+            selector: 'page-headers',template:/*ion-inline-start:"D:\DINHNV\MyData\LapTrinhDiDong\IONIC\ion-affix-demo\src\pages\headers\headers.html"*/'<ion-header>\n\n    <ion-toolbar>\n\n        <ion-title>\n\n            Sticky ion-list-header\n\n        </ion-title>\n\n    </ion-toolbar>\n\n</ion-header>\n\n\n\n<ion-content #content>\n\n    <ion-list>\n\n        <ion-list-header class="sticky-header" ion-affix [content]="content">Header 1</ion-list-header>\n\n        <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n    </ion-list>\n\n    <ion-list>\n\n        <ion-list-header class="sticky-header" ion-affix [content]="content">Header 2</ion-list-header>\n\n        <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n    </ion-list>\n\n    <ion-list>\n\n        <ion-list-header class="sticky-header" ion-affix [content]="content">Header 3</ion-list-header>\n\n        <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n    </ion-list>\n\n    <ion-list>\n\n        <ion-list-header class="sticky-header" ion-affix [content]="content">Header 4</ion-list-header>\n\n        <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n    </ion-list>\n\n</ion-content>'/*ion-inline-end:"D:\DINHNV\MyData\LapTrinhDiDong\IONIC\ion-affix-demo\src\pages\headers\headers.html"*/
         })
     ], HeadersPage);
     return HeadersPage;
@@ -302,13 +302,13 @@ var HeadersPage = (function () {
 
 /***/ }),
 
-/***/ 247:
+/***/ 241:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(248);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(256);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(242);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(250);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -316,24 +316,22 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 256:
+/***/ 250:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(242);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(245);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_ion_affix__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(411);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_dividers_dividers_module__ = __webpack_require__(199);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_cards_cards_module__ = __webpack_require__(177);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_headers_headers_module__ = __webpack_require__(412);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_segment_segments_module__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_refresher_refresher_module__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_scroll_scroll_module__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ion_affix__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(401);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_dividers_dividers_module__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_cards_cards_module__ = __webpack_require__(176);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_headers_headers_module__ = __webpack_require__(402);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_segment_segments_module__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_refresher_refresher_module__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_scroll_scroll_module__ = __webpack_require__(198);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -351,46 +349,38 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-
-
 var AppModule = (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */]
+                __WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* MyApp */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
-                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */], {
-                    mode: 'ios'
-                }, {
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* MyApp */], {}, {
                     links: [
                         { loadChildren: '../pages/cards/cards.module#CardsPageModule', name: 'cards', segment: 'cards', priority: 'high', defaultHistory: [] },
-                        { loadChildren: '../pages/dividers/dividers.module#DividersPageModule', name: 'dividers', segment: 'dividers', priority: 'high', defaultHistory: [] },
                         { loadChildren: '../pages/refresher/refresher.module#RefresherPageModule', name: 'refresher', segment: 'refresher', priority: 'high', defaultHistory: [] },
                         { loadChildren: '../pages/scroll/scroll.module#ScrollPageModule', name: 'scroll', segment: 'scroll', priority: 'high', defaultHistory: [] },
+                        { loadChildren: '../pages/dividers/dividers.module#DividersPageModule', name: 'dividers', segment: 'dividers', priority: 'high', defaultHistory: [] },
                         { loadChildren: '../pages/segment/segments.module#SegmentsPageModule', name: 'segments', segment: 'segments', priority: 'high', defaultHistory: [] }
                     ]
                 }),
-                __WEBPACK_IMPORTED_MODULE_5_ion_affix__["a" /* IonAffixModule */],
-                __WEBPACK_IMPORTED_MODULE_7__pages_dividers_dividers_module__["DividersPageModule"],
-                __WEBPACK_IMPORTED_MODULE_8__pages_cards_cards_module__["CardsPageModule"],
-                __WEBPACK_IMPORTED_MODULE_9__pages_headers_headers_module__["a" /* HeadersPageModule */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_segment_segments_module__["SegmentsPageModule"],
-                __WEBPACK_IMPORTED_MODULE_11__pages_refresher_refresher_module__["RefresherPageModule"],
-                __WEBPACK_IMPORTED_MODULE_12__pages_scroll_scroll_module__["ScrollPageModule"]
+                __WEBPACK_IMPORTED_MODULE_3_ion_affix__["a" /* IonAffixModule */],
+                __WEBPACK_IMPORTED_MODULE_5__pages_dividers_dividers_module__["DividersPageModule"],
+                __WEBPACK_IMPORTED_MODULE_6__pages_cards_cards_module__["CardsPageModule"],
+                __WEBPACK_IMPORTED_MODULE_7__pages_headers_headers_module__["a" /* HeadersPageModule */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_segment_segments_module__["SegmentsPageModule"],
+                __WEBPACK_IMPORTED_MODULE_9__pages_refresher_refresher_module__["RefresherPageModule"],
+                __WEBPACK_IMPORTED_MODULE_10__pages_scroll_scroll_module__["ScrollPageModule"]
             ],
             bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicApp */]],
             entryComponents: [
-                __WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */]
+                __WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* MyApp */]
             ],
-            providers: [
-                __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
-                __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */],
-                { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicErrorHandler */] }
-            ]
+            providers: []
         })
     ], AppModule);
     return AppModule;
@@ -400,7 +390,7 @@ var AppModule = (function () {
 
 /***/ }),
 
-/***/ 279:
+/***/ 273:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -427,38 +417,7 @@ var CardsPage = (function () {
 
 /***/ }),
 
-/***/ 385:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DividersPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-var DividersPage = (function () {
-    function DividersPage() {
-        this.items = Array.from({ length: 15 }, function (value, key) { return key; });
-    }
-    DividersPage.prototype.test = function () {
-        alert('Click handler works!');
-    };
-    DividersPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"D:\DINHNV\MyData\LapTrinhDiDong\IONIC\ion-affix-demo\src\pages\dividers\dividers.html"*/'<ion-header>\n\n    <ion-toolbar>\n\n        <ion-title>\n\n            Sticky ion-item-divider\n\n        </ion-title>\n\n    </ion-toolbar>\n\n</ion-header>\n\n\n\n<ion-content padding #content>\n\n    <ion-item-group>\n\n        <ion-item-divider ion-affix [content]="content" (click)="test()">Group 1 (click me!)</ion-item-divider>\n\n        <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n    </ion-item-group>\n\n    <ion-item-group>\n\n        <ion-item-divider ion-affix [content]="content">Group 2</ion-item-divider>\n\n        <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n    </ion-item-group>\n\n    <ion-list>\n\n        <ion-item-divider>Group 3 (non sticky)</ion-item-divider>\n\n        <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n    </ion-list>\n\n    <ion-item-group>\n\n        <ion-item-divider ion-affix [content]="content">Group 4</ion-item-divider>\n\n        <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n    </ion-item-group>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\DINHNV\MyData\LapTrinhDiDong\IONIC\ion-affix-demo\src\pages\dividers\dividers.html"*/
-        })
-    ], DividersPage);
-    return DividersPage;
-}());
-
-//# sourceMappingURL=dividers.js.map
-
-/***/ }),
-
-/***/ 386:
+/***/ 380:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -491,7 +450,7 @@ var RefresherPage = (function () {
 
 /***/ }),
 
-/***/ 387:
+/***/ 381:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -512,7 +471,7 @@ var ScrollPage = (function () {
         alert('Click handler works!');
     };
     ScrollPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"D:\DINHNV\MyData\LapTrinhDiDong\IONIC\ion-affix-demo\src\pages\scroll\scroll.html"*/'<ion-header>\n\n    <ion-toolbar>\n\n        <ion-title>\n\n            Sticky w/ ion-scroll\n\n        </ion-title>\n\n    </ion-toolbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n    <ion-scroll scrollY="true" style="width: 100%; height: 50%; overflow: hidden" #content>\n\n        <ion-list>\n\n            <ion-list-header ion-affix [content]="content" (click)="test()">Header 1 (click me!)</ion-list-header>\n\n            <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n        </ion-list>\n\n        <ion-list>\n\n            <ion-list-header #header ion-affix [content]="content">Header 2</ion-list-header>\n\n            <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n        </ion-list>\n\n        <ion-list>\n\n            <ion-list-header>Header 3 (non sticky)</ion-list-header>\n\n            <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n        </ion-list>\n\n        <ion-list>\n\n            <ion-list-header>Header 4</ion-list-header>\n\n            <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n        </ion-list>\n\n    </ion-scroll>\n\n    <ion-slides style="height: 50%">\n\n        <ion-slide>\n\n            <h1>Slide 1</h1>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <h1>Slide 2</h1>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <h1>Slide 3</h1>\n\n        </ion-slide>\n\n    </ion-slides>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\DINHNV\MyData\LapTrinhDiDong\IONIC\ion-affix-demo\src\pages\scroll\scroll.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"D:\DINHNV\MyData\LapTrinhDiDong\IONIC\ion-affix-demo\src\pages\scroll\scroll.html"*/'<ion-header>\n\n    <ion-toolbar>\n\n        <ion-title>\n\n            Sticky w/ ion-scroll\n\n        </ion-title>\n\n    </ion-toolbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n    <ion-scroll scrollY="true" style="width: 100%; height: 50%; overflow: hidden" #content>\n\n        <ion-list>\n\n            <ion-list-header ion-affix [content]="content" (click)="test()">Header 1 (click me!)</ion-list-header>\n\n            <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n        </ion-list>\n\n        <ion-list>\n\n            <ion-list-header #header ion-affix [content]="content">Header 2</ion-list-header>\n\n            <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n        </ion-list>\n\n        <ion-list>\n\n            <ion-list-header>Header 3 (non sticky)</ion-list-header>\n\n            <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n        </ion-list>\n\n        <ion-list>\n\n            <ion-list-header>Header 4 (non sticky)</ion-list-header>\n\n            <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n        </ion-list>\n\n    </ion-scroll>\n\n    <ion-slides style="height: 50%">\n\n        <ion-slide>\n\n            <h1>Slide 1</h1>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <h1>Slide 2</h1>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <h1>Slide 3</h1>\n\n        </ion-slide>\n\n    </ion-slides>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\DINHNV\MyData\LapTrinhDiDong\IONIC\ion-affix-demo\src\pages\scroll\scroll.html"*/
         })
     ], ScrollPage);
     return ScrollPage;
@@ -522,7 +481,38 @@ var ScrollPage = (function () {
 
 /***/ }),
 
-/***/ 388:
+/***/ 382:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DividersPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var DividersPage = (function () {
+    function DividersPage() {
+        this.items = Array.from({ length: 15 }, function (value, key) { return key; });
+    }
+    DividersPage.prototype.test = function () {
+        alert('Click handler works!');
+    };
+    DividersPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"D:\DINHNV\MyData\LapTrinhDiDong\IONIC\ion-affix-demo\src\pages\dividers\dividers.html"*/'<ion-header>\n\n    <ion-toolbar>\n\n        <ion-title>\n\n            Sticky ion-item-divider\n\n        </ion-title>\n\n    </ion-toolbar>\n\n</ion-header>\n\n\n\n<ion-content padding #content>\n\n    <ion-item-group>\n\n        <ion-item-divider ion-affix [content]="content" (click)="test()">Group 1 (click me!)</ion-item-divider>\n\n        <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n    </ion-item-group>\n\n    <ion-item-group>\n\n        <ion-item-divider ion-affix [content]="content">Group 2</ion-item-divider>\n\n        <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n    </ion-item-group>\n\n    <ion-list>\n\n        <ion-item-divider>Group 3 (non sticky)</ion-item-divider>\n\n        <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n    </ion-list>\n\n    <ion-item-group>\n\n        <ion-item-divider ion-affix [content]="content">Group 4</ion-item-divider>\n\n        <ion-item *ngFor="let item of items">{{item}}</ion-item>\n\n    </ion-item-group>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\DINHNV\MyData\LapTrinhDiDong\IONIC\ion-affix-demo\src\pages\dividers\dividers.html"*/
+        })
+    ], DividersPage);
+    return DividersPage;
+}());
+
+//# sourceMappingURL=dividers.js.map
+
+/***/ }),
+
+/***/ 383:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -554,16 +544,13 @@ var SegmentsPage = (function () {
 
 /***/ }),
 
-/***/ 411:
+/***/ 401:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(245);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(242);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_headers_headers__ = __webpack_require__(246);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__pages_headers_headers__ = __webpack_require__(240);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -575,23 +562,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-
-
-
 var MyApp = (function () {
-    function MyApp(platform, statusBar, splashScreen) {
-        this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_headers_headers__["a" /* HeadersPage */];
-        platform.ready().then(function () {
-            // Okay, so the platform is ready and our plugins are available.
-            // Here you can do any higher level native things you might need.
-            statusBar.styleDefault();
-            splashScreen.hide();
-        });
+    function MyApp() {
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_1__pages_headers_headers__["a" /* HeadersPage */];
     }
     MyApp = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"D:\DINHNV\MyData\LapTrinhDiDong\IONIC\ion-affix-demo\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n\n'/*ion-inline-end:"D:\DINHNV\MyData\LapTrinhDiDong\IONIC\ion-affix-demo\src\app\app.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+        __metadata("design:paramtypes", [])
     ], MyApp);
     return MyApp;
 }());
@@ -600,14 +578,14 @@ var MyApp = (function () {
 
 /***/ }),
 
-/***/ 412:
+/***/ 402:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HeadersPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__headers__ = __webpack_require__(246);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__headers__ = __webpack_require__(240);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ion_affix__ = __webpack_require__(40);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -628,7 +606,7 @@ var HeadersPageModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_1__headers__["a" /* HeadersPage */]
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_1__headers__["a" /* HeadersPage */]),
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_1__headers__["a" /* HeadersPage */]),
                 __WEBPACK_IMPORTED_MODULE_3_ion_affix__["a" /* IonAffixModule */]
             ],
             entryComponents: [
@@ -643,5 +621,5 @@ var HeadersPageModule = (function () {
 
 /***/ })
 
-},[247]);
+},[241]);
 //# sourceMappingURL=main.js.map
